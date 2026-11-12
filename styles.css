@@ -499,3 +499,35 @@
         padding: 12px 20px;
     }
 }
+/* MOBILE RESPONSIVE LAYOUT */
+
+@media (max-width: 768px) {
+
+    .interests-container {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 25px;
+        padding: 20px;
+    }
+
+    .interest-card {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+
+    .interest-card img {
+        width: 100%;
+        height: 220px;
+        object-fit: cover;
+    }
+
+    .interest-card h3 {
+        font-size: 24px;
+    }
+
+    .interest-card p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+}
