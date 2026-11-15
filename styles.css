@@ -366,277 +366,7 @@
 .publications li {
     line-height: 1.3;
 }
-/* PUBLIC HEALTH PROJECTS */
 
-.public-health-projects {
-    width: 100%;
-    max-width: 1400px;
-    margin: 40px 0;
-    padding: 20px 40px;
-    padding-left: 0;
-    box-sizing: border-box;
-    text-align: left;
-}
-/* SECTION HEADING */
-
-.public-health-projects h2 {
-    font-size: 32px;
-    color: black;
-    margin-bottom: 40px;
-}
-
-/* PROJECTS CONTAINER */
-
-.projects-container {
-    display: flex;
-    flex-direction: column;
-}
-
-/* INDIVIDUAL PROJECT */
-
-.project-card {
-    display: grid;
-    grid-template-columns: 1.5fr 1fr;
-    gap: 50px;
-    align-items: center;
-
-    padding: 40px 0;
-    border-bottom: 1px solid #ddd;
-}
-
-/* PROJECT TEXT */
-
-.project-content {
-    min-width: 0;
-}
-
-.project-year {
-    display: block;
-    font-size: 16px;
-    font-weight: 600;
-    color: #777;
-    margin-bottom: 12px;
-}
-
-.project-content h3 {
-    font-size: 26px;
-    color: #333;
-    margin-bottom: 20px;
-}
-
-.project-content p {
-    font-size: 17px;
-    line-height: 1.8;
-    color: #555;
-    max-width: 650px;
-}
-
-/* PROJECT IMAGE */
-
-.project-image {
-    width: 100%;
-}
-
-.project-image img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-radius: 10px;
-    display: block;
-}
-
-/* REMOVE LAST DIVIDER */
-
-.project-card:last-child {
-    border-bottom: none;
-}
-
-@media (max-width: 768px) {
-
-    .navbar {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        position: relative;
-        padding: 15px 20px;
-    }
-
-    .nav-logo {
-        font-size: 18px;
-    }
-
-    .menu-toggle {
-        display: block;
-        cursor: pointer;
-        z-index: 1001;
-    }
-
-    .nav-links {
-        display: none;
-        position: absolute;
-        top: 100%;
-        left: 0;
-        width: 100%;
-        background: white;
-        flex-direction: column;
-        align-items: center;
-        gap: 0;
-        padding: 15px 0;
-        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
-        z-index: 1000;
-    }
-
-    .nav-links.active {
-        display: flex;
-    }
-
-    .nav-links li {
-        width: 100%;
-        text-align: center;
-    }
-
-    .nav-links a {
-        display: block;
-        padding: 12px 20px;
-    }
-}
-/* PUBLIC HEALTH PROJECTS - MOBILE */
-
-.project-card {
-    grid-template-columns: 1fr;
-    gap: 25px;
-    padding: 30px 0;
-}
-
-.project-content {
-    width: 100%;
-    min-width: 0;
-}
-
-.project-content h3 {
-    font-size: 1.5rem;
-    line-height: 1.3;
-}
-
-.project-content p {
-    font-size: 1rem;
-    line-height: 1.7;
-}
-
-.project-image {
-    width: 100%;
-}
-
-.project-image img {
-    width: 100%;
-    height: 220px;
-    object-fit: cover;
-    display: block;
-}
-/* MOBILE RESPONSIVE LAYOUT */
-
-@media (max-width: 768px) {
-
-    .interests-container {
-        display: grid;
-        grid-template-columns: 1fr;
-        gap: 25px;
-        padding: 20px;
-    }
-
-    .interest-card {
-        width: 100%;
-        max-width: 100%;
-        box-sizing: border-box;
-    }
-
-    .interest-card img {
-        width: 100%;
-        height: 220px;
-        object-fit: cover;
-    }
-
-    .interest-card h3 {
-        font-size: 24px;
-    }
-
-    .interest-card p {
-        font-size: 16px;
-        line-height: 1.6;
-    }
-}
-@media (max-width: 768px) {
-
-    .prof-container {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        gap: 30px;
-        padding: 20px;
-    }
-
-    .prof-text {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .prof-text p {
-        font-size: 17px;
-        line-height: 1.7;
-    }
-
-    .picture {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .picture img {
-        width: 100%;
-        max-width: 280px;
-        height: auto;
-        border-radius: 15px;
-    }
-}
-@media (max-width: 768px) {
-
-    .projects-container {
-        display: flex;
-        flex-direction: column;
-        gap: 25px;
-        padding: 20px;
-    }
-
-    .project-card {
-        width: 100%;
-        max-width: 100%;
-    }
-
-    .project-card h3 {
-        font-size: 26px;
-        line-height: 1.3;
-    }
-
-
-    .project-card p {
-        font-size: 16px;
-        line-height: 1.7;
-    }
-
-    .project-image {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
-
-    .project-image img {
-        width: 100%;
-        max-width: 350px;
-        height: auto;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-}
 /* =====================================
    MY INTERESTS - MOBILE RESPONSIVE
 ===================================== */
@@ -698,4 +428,117 @@
         font-size: 1rem;
         line-height: 1.7;
     }
+}
+/* PUBLIC HEALTH PROJECTS */
+
+.public-health-projects {
+    width: 100%;
+    max-width: none;
+    margin: 40px 0;
+    padding: 20px 0;
+    box-sizing: border-box;
+    text-align: left;
+}
+
+/* SECTION HEADING */
+
+.public-health-projects h2 {
+    font-size: 32px;
+    color: black;
+    margin: 0 0 20px 0;
+}
+/* PROJECTS CONTAINER */
+
+.projects-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+/* INDIVIDUAL PROJECT */
+
+.project-card {
+    display: grid;
+    grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr);
+    gap: 30px;
+    align-items: start;
+
+    padding: 20px 0;
+    border-bottom: 1px solid #ddd;
+}
+/* PROJECT TEXT */
+
+.project-content {
+    min-width: 0;
+}
+
+.project-content h3 {
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.project-year {
+    display: block;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.project-content p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+/* PROJECT IMAGES */
+
+.project-image {
+    width: 100%;
+}
+
+.project-image img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+}
+/* MOBILE PROJECT LAYOUT */
+
+@media (max-width: 768px) {
+
+    .public-health-projects {
+        padding: 20px;
+    }
+
+    .project-card {
+        grid-template-columns: 1fr;
+        gap: 25px;
+    }
+
+    .project-content h3 {
+        font-size: 22px;
+    }
+
+    .project-image img {
+        height: 220px;
+    }
+
+}
+/*==CERTIFICATION==*/
+.certification {
+    width: 100%;
+    max-width: 1400px;
+    margin: 40px 0;
+    padding: 30px 0;
+    box-sizing: border-box;
+}
+.certification li {
+    list-style-type: disc;
+    padding-left: 25px;
+    margin: 0;
+}
+.certification h3 {
+    font-size: 30px;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 25px;
+    text-decoration: none;
+    border-bottom: none;
 }
