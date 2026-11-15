@@ -546,7 +546,7 @@
 
 @media (max-width: 768px) {
 
-    .about-container {
+    .prof-container {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -554,20 +554,20 @@
         padding: 20px;
     }
 
-    .about-text {
+    .prof-text {
         width: 100%;
         max-width: 100%;
         order: 2;
     }
 
-    .about-image {
+    .picture {
         width: 100%;
         display: flex;
         justify-content: center;
         order: 1;
     }
 
-    .about-image img {
+    .picture img {
         width: 200px;
         height: auto;
         border-radius: 12px;
